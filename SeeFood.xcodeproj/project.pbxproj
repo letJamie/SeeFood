@@ -13,6 +13,7 @@
 		7D24E11A24EB859B00750608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D24E11824EB859B00750608 /* Main.storyboard */; };
 		7D24E11C24EB859E00750608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D24E11B24EB859E00750608 /* Assets.xcassets */; };
 		7D24E11F24EB859E00750608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D24E11D24EB859E00750608 /* LaunchScreen.storyboard */; };
+		7D24E12724EB866300750608 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7D24E12624EB866300750608 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7D24E11B24EB859E00750608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D24E11E24EB859E00750608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D24E12024EB859E00750608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D24E12624EB866300750608 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7D24E11B24EB859E00750608 /* Assets.xcassets */,
 				7D24E11D24EB859E00750608 /* LaunchScreen.storyboard */,
 				7D24E12024EB859E00750608 /* Info.plist */,
+				7D24E12624EB866300750608 /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D24E11724EB859B00750608 /* ViewController.swift in Sources */,
+				7D24E12724EB866300750608 /* Inceptionv3.mlmodel in Sources */,
 				7D24E11324EB859B00750608 /* AppDelegate.swift in Sources */,
 				7D24E11524EB859B00750608 /* SceneDelegate.swift in Sources */,
 			);
