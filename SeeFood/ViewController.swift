@@ -58,6 +58,16 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             }
             
             print(results)
+            
+            if let firstResult = results.first {
+                if firstResult.identifier.contains("hotdog") {
+                    self.navigationItem.title = "hotdog"
+                } else {
+                    self.navigationItem.title = "Not hotdog"
+                }
+                
+            }
+            
         }
         
         let handler = VNImageRequestHandler(ciImage: image)
